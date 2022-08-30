@@ -5,6 +5,7 @@
   - Chapter 0. 자바스크립트 기초
   - Chapter 01. var, let, const
   - Chapter 02. 화살표 함수
+  - Chapter 03. 함수 기본값 인수
 
 
 
