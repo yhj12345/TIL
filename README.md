@@ -8,6 +8,7 @@
   - CHAPTER 03. 함수 기본값 인수
   - CHAPTER 04. 템플릿 리터럴
   - CHAPTER 05. 문자열 메서드
+  - CHAPTER 06. 디스트럭처링
 
 
 
