@@ -9,6 +9,7 @@
   - CHAPTER 04. 템플릿 리터럴
   - CHAPTER 05. 문자열 메서드
   - CHAPTER 06. 디스트럭처링
+  - CHAPTER 07. 루프
 
 
 
