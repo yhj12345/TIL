@@ -10,6 +10,7 @@
   - CHAPTER 05. 문자열 메서드
   - CHAPTER 06. 디스트럭처링
   - CHAPTER 07. 루프
+  - CHAPTER 08. 배열 메서드
 
 
 
