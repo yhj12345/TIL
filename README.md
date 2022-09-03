@@ -11,6 +11,7 @@
   - CHAPTER 06. 디스트럭처링
   - CHAPTER 07. 루프
   - CHAPTER 08. 배열 메서드
+  - CHAPTER 09. 스프레드 연산자와 레스트 매개변수
 
 
 
