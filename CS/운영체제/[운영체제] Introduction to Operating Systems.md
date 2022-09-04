@@ -105,4 +105,4 @@
 
 #### 운영 체제의 구조
 
-![image-20220904140220545](C:\Users\SSAFY\AppData\Roaming\Typora\typora-user-images\image-20220904140220545.png)
+![image-20220904140220545](C:\Users\SSAFY\Desktop\HJ\TIL\CS\운영체제\assets\image-20220904140220545.png)
