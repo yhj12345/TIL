@@ -20,3 +20,10 @@
 - React 이론
   - Hooks
   - Router
+
+### 
+
+## CS
+
+- 운영체제
+  - 1강. Introduction to Operating System
