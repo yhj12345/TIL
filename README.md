@@ -21,9 +21,10 @@
   - Hooks
   - Router
 
-### 
+
 
 ## CS
 
 - 운영체제
   - 1강. Introduction to Operating System
+  - 2강. System Structure & Program Execution
