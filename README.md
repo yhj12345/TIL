@@ -12,6 +12,7 @@
   - CHAPTER 07. 루프
   - CHAPTER 08. 배열 메서드
   - CHAPTER 09. 스프레드 연산자와 레스트 매개변수
+  - CHAPTER 10. 객체 리터럴의 업그레이드
 
 
 
