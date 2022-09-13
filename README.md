@@ -23,6 +23,7 @@
 - React 이론
   - Hooks
   - Router
+  - 소셜로그인
 
 
 
