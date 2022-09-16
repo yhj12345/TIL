@@ -1,5 +1,5 @@
 # 📖 TIL (Today I Learned)
-## JavaScript
+## 🎈 JavaScript
 
 - 모던 자바스크립트 핵심 가이드
   - CHAPTER 00. 자바스크립트 기초
@@ -18,7 +18,7 @@
 
 
 
-## React
+## ✨ React
 
 - React 이론
   - Hooks
@@ -27,8 +27,15 @@
 
 
 
-## CS
+## 🎨 CS
 
 - 운영체제
   - 1강. Introduction to Operating System
   - 2강. System Structure & Program Execution
+
+
+
+## 🎮 Algorithm
+
+- 스터디
+  - 2021 카카오 채용연계형 인턴십
