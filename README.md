@@ -15,6 +15,7 @@
   - CHAPTER 10. 객체 리터럴의 업그레이드
   - CHAPTER 11. 심벌
   - CHAPTER 12. 클래스
+  - CHAPTER 13. 프로미스
 
 
 
