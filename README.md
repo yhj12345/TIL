@@ -34,7 +34,7 @@
   - 1강. Introduction to Operating System
   - 2강. System Structure & Program Execution
   - 3강. Process
-  - 3강. Process Management
+  - 4강. Process Management
 
 
 
