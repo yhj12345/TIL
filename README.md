@@ -16,7 +16,7 @@
   - CHAPTER 11. 심벌
   - CHAPTER 12. 클래스
   - CHAPTER 13. 프로미스
-  - CHAPTER 14.,
+  - CHAPTER 14.
 
 
 
