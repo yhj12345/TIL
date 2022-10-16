@@ -36,6 +36,7 @@
   - 2강. System Structure & Program Execution
   - 3강. Process
   - 4강. Process Management
+  - 5강. CPU scheduling
 
 
 
