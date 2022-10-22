@@ -26,6 +26,7 @@
   - Hooks
   - Router
   - 소셜로그인
+  - Redux
 
 
 
