@@ -198,3 +198,17 @@
 
 
 #### 📚 Noncontiguous allocation
+
+##### paging
+
+- process의 virtual memory를 동일한 사이즈의 page 단위로 나눔
+- Virtual memory의 내용이 page 단위로 noncontiguous하게 저장됨
+- 일부는 backing storage에, 일부는 physical memory에 저장
+
+- **Basic Method**
+  - physical memory를 동일한 크기의 frame으로 나눔
+  - logical memory를 동일 크기의 page로 나눔(frame과 같은 크기)
+  - 모든 가용 frame들을 관리
+  - page table을 사용하여 logical address를 physical address로 변환
+  - External fragmentation 발생 안 함
+  - Internal fragmentation 발생 가능
