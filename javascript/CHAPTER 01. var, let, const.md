@@ -40,8 +40,6 @@ console.log(person.age); // 26
 // 바꿀려고 시도해도 오류를 반환해주지는 않는다
 ```
 
-
-
 #### 1.2 TDZ(temporal dead zone, 일시적 비활성 구역)
 
 ```javascript
@@ -54,8 +52,6 @@ let j = "I am a let"
 // -> var는 정의되기 전에 접근 가능 but, let과 const는 불가능
 // var, let, const 모두 호이스팅의 대상이 되지만, var는 정의되기전에 undefined 값을 가지게 되지만 let은 변수가 선언될 때까지 일시적으로 TDZ에 있게 된다. 따라서 초기화 전에 변수에 접근하면 오류가 발생한다.
 ```
-
-
 
 #### 1.3 var, let, const를 적재적소에 쓰는법
 
@@ -73,4 +69,3 @@ let j = "I am a let"
 
 -> 나는 1번 의견으로 사용
 ```
-

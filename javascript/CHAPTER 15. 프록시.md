@@ -4,8 +4,6 @@
 
 > 프록시 객체는 기본작업(예: 속성 조회, 할당, 열거, 함수 호출 등)에 대해 사용자 지정 동작을 추가로 정의하는 데 사용된다.
 
-
-
 ### 15.2 프록시 생성
 
 ```javascript
@@ -14,8 +12,6 @@ var x = new Proxy(target, handler);
 
 - target은 객체, 함수, 다른 프록시 등 무엇이든 가능하다.
 - handler는 작업이 수행될 때 프록시의 동작을 정의하는 객체이다.
-
-
 
 ```javascript
 // 원복 객체
@@ -40,8 +36,6 @@ console.log(dogProxy.breed = "Labrador");
 console.log(dogProxy.breed)
 // "LABRADOR"
 ```
-
-
 
 ### 15.3 프록시 활용
 
@@ -101,4 +95,3 @@ dog.breed;
 dog.age = 8;
 // 8
 ```
-
