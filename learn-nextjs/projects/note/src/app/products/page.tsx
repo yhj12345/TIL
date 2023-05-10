@@ -1,17 +1,25 @@
 import Link from "next/link";
-const products = ["shirt", "pants", "skirt", "shoes"];
+import { getProducts } from "../api/products";
+import MeowArticle from "@/components/MeowArticle";
 
-export default function ProductsPage() {
+// export const revalidate = 3
+
+export default async function ProductsPage() {
+  // 서버 파일(데이터베이스)에 있는 제품의 리스트를 읽어와서, 보여 줌
+  const products = await getProducts();
+
   return (
     <div>
       <h1>제품 소개 페이지!</h1>
       <ul>
         {products.map((product, index) => (
           <li key={index}>
-            <Link href={`/products/${product}`}>{product}</Link>
+            <Link href={`/products/${product.id}`}>{product.name}</Link>
           </li>
         ))}
       </ul>
+
+      <MeowArticle />
       {/* <ul>
         <li>
           <Link href="/products/shirt">shirt</Link>
