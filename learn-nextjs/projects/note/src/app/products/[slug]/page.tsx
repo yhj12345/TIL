@@ -1,4 +1,5 @@
 import { getProduct, getProducts } from "@/app/api/products";
+import Image from "next/image";
 
 export const revalidate = 3;
 
@@ -11,7 +12,17 @@ type Props = {
 export default async function ProductPage({ params: { slug } }: Props) {
   // 서버 파일에 있는 데이터 중 해당 제품의 정보를 찾아서 그걸 보여줌
   const product = await getProduct(slug);
-  return <h1>{product?.name} 제품 설명 페이지</h1>;
+  return (
+    <>
+      <h1>{product?.name} 제품 설명 페이지</h1>
+      <Image
+        src={`/images/${product?.image}`}
+        alt={product!.name}
+        height={300}
+        width={300}
+      />
+    </>
+  );
 }
 
 export async function generateStaticParams() {
