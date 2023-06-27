@@ -2,9 +2,9 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <div>
+    <section>
       <p>어바웃</p>
-    </div>
+    </section>
   );
 };
 

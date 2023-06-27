@@ -2,9 +2,9 @@ import React from "react";
 
 const ContactPage = () => {
   return (
-    <div>
+    <section>
       <p>컨택트 페이지</p>
-    </div>
+    </section>
   );
 };
 

@@ -20,7 +20,7 @@ const FilterablePosts = ({ posts, categories }: Props) => {
       : posts.filter((post) => post.category === seleted);
 
   return (
-    <section>
+    <section className="flex m-4">
       <PostsGrid posts={filteredPosts} />
       <Categories
         categories={[ALL_POSTS, ...categories]}
