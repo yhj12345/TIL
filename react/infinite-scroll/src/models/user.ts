@@ -3,6 +3,17 @@ export type User = {
   name: string;
 };
 
+export type PaginationParams = {
+  size: number;
+  page: number;
+};
+
+export type InfiniteScrollOptions = {
+  size: number;
+  onSuccess?: () => void;
+  onError?: () => void;
+};
+
 export interface PaginationResponse<T> {
   contents: T[];
   pageNumber: number;
