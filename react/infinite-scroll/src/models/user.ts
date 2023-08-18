@@ -1,18 +1,18 @@
-export type User = {
+export interface User {
   id: number;
   name: string;
-};
+}
 
-export type PaginationParams = {
+export interface PaginationParams {
   size: number;
   page: number;
-};
+}
 
-export type InfiniteScrollOptions = {
+export interface InfiniteScrollOptions {
   size: number;
   onSuccess?: () => void;
   onError?: () => void;
-};
+}
 
 export interface PaginationResponse<T> {
   contents: T[];
